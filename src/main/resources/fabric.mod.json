@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "mc-308595-fix",
+  "version": "${version}",
+  "name": "MC-308595-Fix",
+  "description": "Fixes MC-308595",
+  "authors": [
+    "LeonTG"
+  ],
+  "environment": "client",
+  "mixins": [
+    "mc308595fix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "java": ">=25"
+  }
+}
